@@ -17,5 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/tolojanahary-completez-votre-reservation', function () {
-    return view('tolojanahary-completez-votre-reservation');
+    return file_get_contents(public_path('tolojanahary-completez-votre-reservation.html'));
+});
+
+Route::get('/tolojanahary-paiement', function () {
+    return file_get_contents(public_path('tolojanahary-paiement.html'));
 });
