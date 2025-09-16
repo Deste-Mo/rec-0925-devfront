@@ -159,7 +159,12 @@ Une fois démarré, accédez à l'application via :
 -   💰 Affichage des tarifs (0€, 40€, 60€)
 -   📋 Description des avantages par package
 -   🎨 Interface responsive avec états visuels
-    ![alt text](image.png)
+
+**Maquette**
+![alt text](resources/images/maquette-completez-votre-reservation.png)
+
+**Design**
+![alt text](resources/images/tolojanahary-completez-votre-reservation.png)
 
 ### Page de Paiement
 
@@ -170,36 +175,26 @@ Une fois démarré, accédez à l'application via :
 -   👤 Formulaire d'informations personnelles
 -   📅 Récapitulatif du test (date, heure, lieu)
 -   💳 Options de paiement multiples
--   📊 Calcul automatique du total
 
-## 📁 Structure du Projet
+**Fonctionnalités à implementer**
 
-```
-rec-0925-devfront/
-├── 📄 public/
-│   ├── tolojanahary-completez-votre-reservation.html
-│   └── tolojanahary-paiement.html
-├── 🎨 resources/
-│   ├── css/
-│   └── js/
-├── 🛣️ routes/
-│   └── web.php
-├── ⚙️ .env
-├── 📦 composer.json
-├── 📦 package.json
-├── 🚀 artisan
-└── 📖 README.md
-```
+-   Boutton de Je réserve mon test psychotechnique
+-   Style de Récapitulatif de test psychotechnique
+
+**Maquette**
+![alt text](resources/images/maquette-paiement.png)
+
+**Design**
+![alt text](resources/images/tolojanahary-paiement.jpeg)
 
 ## 🛠️ Technologies Utilisées
 
-| Technologie                                                         | Version | Usage                   |
-| ------------------------------------------------------------------- | ------- | ----------------------- |
-| ![Laravel](https://img.shields.io/badge/Laravel-10-red)             | 10.x    | Framework PHP & Routage |
-| ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-blue) | 3.x     | Framework CSS (CDN)     |
-| ![PHP](https://img.shields.io/badge/PHP-8.1+-purple)                | 8.1+    | Backend                 |
-| ![Vite](https://img.shields.io/badge/Vite-4.x-646CFF)               | 4.x     | Build Tool              |
-| ![XAMPP](https://img.shields.io/badge/XAMPP-Latest-orange)          | Latest  | Environnement local     |
+| Technologie                                                | Version | Usage                   |
+| ---------------------------------------------------------- | ------- | ----------------------- |
+| ![Laravel](https://img.shields.io/badge/Laravel-10-red)    | 10.x    | Framework PHP & Routage |
+| ![PHP](https://img.shields.io/badge/PHP-8.1+-purple)       | 8.1+    | Backend                 |
+| ![Vite](https://img.shields.io/badge/Vite-4.x-646CFF)      | 4.x     | Build Tool              |
+| ![XAMPP](https://img.shields.io/badge/XAMPP-Latest-orange) | Latest  | Environnement local     |
 
 ### Librairies & Outils
 
@@ -273,21 +268,11 @@ C:\xampp\php\php.exe artisan --version
 -   **Temps de développement** : 16 heures
 -   **Technologies** : 8 technologies intégrées
 
-## 📈 Temps de Développement
-
-| Phase                    | Durée   | Description                       |
-| ------------------------ | ------- | --------------------------------- |
-| 🎨 **Analyse maquettes** | 2h      | Étude des spécifications Adobe XD |
-| 💻 **Développement**     | 8h      | Implémentation HTML/CSS           |
-| ⚙️ **Configuration**     | 3h      | Setup XAMPP/Laravel               |
-| 🧪 **Tests**             | 3h      | Validation et ajustements         |
-| **Total**                | **16h** | Projet complet                    |
-
 ## 📞 Support
 
 Pour toute question ou assistance :
 
--   📧 **Email** : [contact@devteam.com](mailto:modestep20.aps1a@gmail.com)
+-   📧 **Email** : [modestep20.aps1a@gmail.com](mailto:modestep20.aps1a@gmail.com)
 -   📱 **Issues** : [GitHub Issues](https://github.com/Deste-Mo/rec-0925-devfront/issues)
 -   📖 **Documentation** : Ce README
 

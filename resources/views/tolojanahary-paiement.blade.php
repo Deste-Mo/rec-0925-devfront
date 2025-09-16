@@ -40,14 +40,14 @@
                 Confirmer et payer
             </h2>
             <div class="flex flex-col md:flex-row gap-8">
-                <div class="w-full md:w-2/3 flex flex-col gap-6">
+                <div class="w-full md:w-3/5 flex flex-col gap-6">
                     <div
                         class="bg-white rounded-[10px] shadow-[0_3px_6px_rgba(0,0,0,0.16)] p-4 flex items-center gap-3">
                         <i class="fas fa-chart-line text-[red]"></i>
-                        <p class="font-lato font-normal text-[15px]">
+                        <p class="font-lato font-lato text-[15px]">
                             <span class="font-bold">Date de réservation en forte demande</span>
                             <br>
-                            <span class="font-normal">Les réservations sont fréquentes pour ce centre</span>
+                            <span class="font-lato">Les réservations sont fréquentes pour ce centre</span>
                         </p>
                     </div>
                     
@@ -70,7 +70,7 @@
                         <h2 class="font-lato font-bold text-[24px] leading-[30px] text-[#383838] mb-6">
                             Votre test psychotechnique
                         </h2>
-                        <div class="flex flex-col gap-3 text-[#383838] font-lato font-normal">
+                        <div class="flex flex-col gap-3 text-[#383838] font-lato font-lato">
                             <div class="flex items-center gap-3">
                                 <i class="fas fa-calendar-alt"></i>
                                 <div>
@@ -104,7 +104,7 @@
                             <i class="fas fa-lock text-[#383838]"></i>
                             <span class="text-[10px] text-gray-500">100% SÉCURISÉ</span>
                         </div>
-                        <div class="flex flex-col gap-4 font-lato font-normal">
+                        <div class="flex flex-col gap-4 font-lato font-lato">
                             <div class="flex items-center gap-3">
                                 <input
                                     type="radio"
@@ -159,45 +159,54 @@
                             <hr/>
                         </div>
                     </div>
+
+                    <div>
+                        <button
+                            class="font-lato bg-[#BF2A6B] text-[#FFFFFF] font-bold text-[20px] rounded-[10px] w-full h-[55px] shadow-lg mt-8">
+                            Je réserve mon test psychotechnique →
+                        </button>
+                    </div>
+
+ 
                 </div>
 
-                <div class="w-full md:w-1/3 bg-white rounded-[10px] pl-5 h-fit sticky top-6">
-                    <h3 class="font-lato font-bold text-[18px] text-[#A73D5E] mb-4">Récapitulatif de votre test
-                        psychotechnique</h3>
+                <div class="w-full md:w-2/5 bg-white rounded-[10px] pl-5 h-fit sticky top-6">
+
                     <div class="flex flex-col gap-4 font-lato">
-                        <p class="font-bold text-xl text-[#383838]">
-                            Total à payer : 130.00€
-                        </p>
-                        <p class="font-normal text-[12px] text-[#383838]">
-                            En passant votre commande, vous acceptez les conditions générales de vente de la société
-                            AAAEP.
-                            Veuillez consulter notre politique de protection des données.
-                        </p>
-                        <hr />
+                        <div class="shadow-[0_3px_10px_rgba(0,0,0,0.16)] p-8 px-6 py-6 pt-6 pb-6">
+                            <h3 class="font-lato font-bold text-[18px] text-[#BF2A6B] mb-4">Récapitulatif de votre test
+                                psychotechnique
+                            </h3>
+                            <p class="font-bold text-[#383838]">
+                                Total à payer : 130.00€
+                            </p>
+                            <p class="font-lato text-[12px] my-[17px] text-[#383838]">
+                                En passant votre commande, vous acceptez les conditions générales de vente de la société
+                                AAAEP.
+                                Veuillez consulter notre politique de protection des données.
+                            </p>
+                        </div>
                         <div class="grid grid-cols-3 gap-4 mt-4 text-center font-lato">
                             <div class="flex flex-col items-center">
                                 <i class="fas fa-hand-pointer shadow-[0_3px_10px_rgba(0,0,0,0.16)] px-3 py-2 border rounded-[200px] text-xl text-[#0DBC0D]"></i>
                                 <span class="font-bold text-[12px] mt-2">Entraînement</span>
-                                <span class="font-normal text-[10px]">Gratuit illimité</span>
+                                <span class="font-lato text-[10px]">Gratuit illimité</span>
                             </div>
                             <div class="flex flex-col items-center">
                                 <i class="fas fa-file-alt shadow-[0_3px_10px_rgba(0,0,0,0.16)] px-4 py-2 border rounded-[200px] text-xl text-[#0DBC0D]"></i>
                                 <span class="font-bold text-[12px] mt-2">Résultats</span>
-                                <span class="font-normal text-[10px]">Le Jour Même</span>
+                                <span class="font-lato text-[10px]">Le Jour Même</span>
                             </div>
                             <div class="flex flex-col items-center">
                                 <i class="fas fa-check-circle shadow-[0_3px_10px_rgba(0,0,0,0.16)] px-3 py-2 border rounded-[200px] text-xl text-[#0DBC0D]"></i>
                                 <span class="font-bold text-[12px] mt-2">Annulation</span>
-                                <span class="font-normal text-[10px]">Gratuite jusqu'à 48h</span>
+                                <span class="font-lato text-[10px]">Gratuite jusqu'à 48h</span>
                             </div>
                         </div>
                         
                     </div>
                 </div>
-                <button
-                    class="font-lato bg-[#A73D5E] text-white font-bold text-[20px] rounded-[10px] w-full h-[55px] shadow-lg mt-8 md:hidden">
-                    Je réserve mon test psychotechnique →
-                </button>
+
             </div>
         </section>
     </main>
