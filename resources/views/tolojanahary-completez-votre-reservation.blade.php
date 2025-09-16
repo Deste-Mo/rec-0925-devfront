@@ -56,7 +56,7 @@
                         <span class="text-[32px] font-lato font-bold leading-[38px] text-[#2C2C2C]">+</span>
                         <span class="text-[44px] font-lato font-bold leading-[52px] text-[#2C2C2C]">0€</span>
                     </div>
-                    <p class="text-[12px] font-lato font-normal text-[#2C2C2C] leading-[16px] mt-2">
+                    <p class="text-[12px] font-lato d-none font-normal text-[#2C2C2C] leading-[16px] mt-2">
                         Basic
                     </p>
                     <button
@@ -66,7 +66,7 @@
                             Sélectionner
                         </span>
                     </button>
-                    <div class="flex flex-col items-start gap-1 mt-5 px-3 md:px-0 w-full">
+                    <div class="flex flex-col items-start gap-1 mt-5 px-1 md:px-0 w-full">
                         <div class="flex pt-2 items-center gap-2">
                             <i class="fas fa-hand-pointer text-[16px]" style="color:#353535;"></i>
                             <span class="text-[14px] font-lato leading-[18px] text-[#353535]">
@@ -121,7 +121,7 @@
                             Sélectionner
                         </span>
                     </button>
-                    <div class="flex flex-col items-start gap-1 mt-5 px-3 md:px-0 w-full">
+                    <div class="flex flex-col items-start gap-1 mt-5 px-1 md:px-0 w-full">
                         <div class="flex pt-2 items-center gap-2">
                             <i class="fas fa-hand-pointer text-[16px]" style="color:#0DBC0D;"></i>
                             <span class="text-[14px] font-lato leading-[18px]" style="color:#0DBC0D;">
@@ -170,7 +170,7 @@
                             Sélectionner
                         </span>
                     </button>
-                    <div class="flex flex-col items-start gap-1 mt-5 px-3 md:px-0 w-full">
+                    <div class="flex flex-col items-start gap-1 mt-5 px-1 md:px-0 w-full">
                         <div class="flex pt-2 items-center gap-2">
                             <i class="fas fa-hand-pointer text-[16px]" style="color:#36578A;"></i>
                             <span class="text-[14px] font-lato leading-[18px]" style="color:#36578A;">
